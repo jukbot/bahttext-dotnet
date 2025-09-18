@@ -1,2 +1,2 @@
-# dotnet-baht-text
-Convert number to Thai currency full text with zero dependency. (C#)
+# bahttext-dotnet
+Convert a number to Thai currency full text with zero dependency. (C#)
