@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>DotNetBahtText</PackageId>
+    <PackageVersion>1.0.0</PackageVersion>
+    <Title>DotNet Baht Text Converter</Title>
+    <Authors>jukbot</Authors>
+    <Description>Convert number to Thai currency full text with zero dependency.</Description>
+    <PackageTags>thai;currency;baht;converter;text;thailand</PackageTags>
+    <RepositoryUrl>https://github.com/jukbot/dotnet-baht-text</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md" Pack="true" PackagePath="\"/>
+  </ItemGroup>
+
+</Project>
